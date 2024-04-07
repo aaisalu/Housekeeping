@@ -133,7 +133,7 @@ def write_html(data):
         header="Welcome to Libgen Book Library",
         content=data,
     )
-    shugified = helper_func.slugify(book_title)
+    shugified = helper_func.sanitize_filename(book_title)
     create_folder = helper_func.create_folder(
         rf"Library/{shugified}_{randint(0, 1000)}_books"
     )

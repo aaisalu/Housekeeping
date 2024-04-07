@@ -24,7 +24,7 @@ def write_html(data):
         header="Welcome to Libgen Book Library",
         content=data,
     )
-    shugified = helper_func.slugify(book_title)
+    shugified = helper_func.sanitize_filename(book_title)
     create_folder = helper_func.create_folder(
         rf"Library/{shugified}_{randint(0, 1000)}_books"
     )
@@ -111,16 +111,18 @@ def adv_mode(book_info, search_mode):
             "As the book, pubished year is not well defined so, excluding it.", "yellow"
         )
     try:
-        book_filters.update(
-            {
-                "Language": lang,
-            }
-        ) if (
-            lang := input("Enter the language of the book: ").lower()
-        ) else book_filters.update(
-            {
-                "Language": "English",
-            }
+        (
+            book_filters.update(
+                {
+                    "Language": lang,
+                }
+            )
+            if (lang := input("Enter the language of the book: ").lower())
+            else book_filters.update(
+                {
+                    "Language": "English",
+                }
+            )
         )
         extension = input(
             "Which file format would you like to choose? [pdf/epub]: "
