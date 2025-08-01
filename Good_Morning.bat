@@ -130,12 +130,12 @@ rem echo Copy this code to lunch Chrome  browser :   start "Chrome"  "C:\Program
     :WorldNews
         echo[
         echo I am here because you want to see World News
-    	start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://www.bizshala.com/ https://merolagani.com/ https://www.cnbc.com/world/ https://www.setopati.com/ https://www.onlinekhabar.com/ https://www.ratopati.com/ https://ekantipur.com/ https://www.sciencealert.com/ https://www.insider.com/asia/ https://news.google.com/topstories/
+    	start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://www.bizshala.com/ https://merolagani.com/ https://www.cnbc.com/world/ https://www.setopati.com/ https://www.onlinekhabar.com/ https://www.ratopati.com/ https://ekantipur.com/ https://www.sciencealert.com/ https://www.insider.com/asia/ https://news.google.com/topstories/
         echo[
         echo [31mPlease! Don't close this Window.[0m
         echo Please! Wait for 2 min for the next wave of news to lunch
         ping -n 120 127.0.0.1 > nul
-    	start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://www.bloomberg.com/asia  https://www.theguardian.com/international https://www.businessinsider.com/sai https://www.vice.com/en https://www.thehimalayantimes.com/ https://www.hamropatro.com/news https://annapurnapost.com/ https://www.bbc.com/news/world https://nepsealpha.com/
+    	start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://www.bloomberg.com/asia  https://www.theguardian.com/international https://www.businessinsider.com/sai https://www.vice.com/en https://www.thehimalayantimes.com/ https://www.hamropatro.com/news https://annapurnapost.com/ https://www.bbc.com/news/world https://nepsealpha.com/
         goto :END
         rem goto :ConfirmBox
     	rem start /min "" explorer.exe shell:AppsFolder\Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic
@@ -144,27 +144,27 @@ rem echo Copy this code to lunch Chrome  browser :   start "Chrome"  "C:\Program
     :TechNews
         echo[
         echo I am here because you want to see Tech News
-    	start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://news.ycombinator.com/ https://hackersonlineclub.com/ https://www.theverge.com/ https://www.xda-developers.com/ https://www.bleepingcomputer.com/ https://www.maketecheasier.com/   https://www.makeuseof.com/
+    	start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://news.ycombinator.com/ https://hackersonlineclub.com/ https://www.theverge.com/ https://www.xda-developers.com/ https://www.bleepingcomputer.com/ https://www.maketecheasier.com/   https://www.makeuseof.com/
 
         echo[
         echo [31mPlease! Don't close this Window.[0m
         echo Please! Wait for 2 min for the next wave of news to lunch
         ping -n 120 127.0.0.1 > nul
 
-        start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://www.androidauthority.com/ https://www.gadgetbytenepal.com/ https://mspoweruser.com/ https://beebom.com/  https://www.techpana.com/ ttps://www.androidpolice.com/ https://www.windowscentral.com/blog
+        start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://www.androidauthority.com/ https://www.gadgetbytenepal.com/ https://mspoweruser.com/ https://beebom.com/  https://www.techpana.com/ ttps://www.androidpolice.com/ https://www.windowscentral.com/blog
 
         echo[
         echo [31mPlease! Don't close this Window.[0m
         echo Please! Wait for 2 min for the final wave of news to lunch
         ping -n 120 127.0.0.1 > nul
 
-    	start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://www.pcmag.com/  https://www.computerworld.com/in/category/windows/ https://www.linuxtoday.com/ https://thehackernews.com/
+    	start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://www.pcmag.com/  https://www.computerworld.com/in/category/windows/ https://www.linuxtoday.com/ https://thehackernews.com/
         goto :END
 
     :StockNews
         echo[
         echo I am here because you want to see Stock News
-    	start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" http://www.nepalstock.com/news/category/0 https://merolagani.com/ https://nepsealpha.com/ https://www.bizshala.com/ https://newweb.nepalstock.com.np/ https://www.sharebazarnepal.com.np/  https://www.sharesansar.com/ https://www.nepalipaisa.com/ https://merocapital.com/
+    	start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" http://www.nepalstock.com/news/category/0 https://merolagani.com/ https://nepsealpha.com/ https://www.bizshala.com/ https://newweb.nepalstock.com.np/ https://www.sharebazarnepal.com.np/  https://www.sharesansar.com/ https://www.nepalipaisa.com/ https://merocapital.com/
         goto :END
 
     :InERROR
@@ -207,8 +207,8 @@ rem echo Copy this code to lunch Chrome  browser :   start "Chrome"  "C:\Program
     )
     :tradestk
         echo I'm here because it's Business hrs
-        rem start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" https://tms51.nepsetms.com.np/login http://www.nepalstock.com/news/category/0 https://meroshare.cdsc.com.np/#/login https://newweb.nepalstock.com.np/ https://nepsealpha.com/trading/chart
-        start "Edge" "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" https://tms51.nepsetms.com.np/login http://www.nepalstock.com/news/category/0 https://meroshare.cdsc.com.np/#/login https://mail.google.com/mail/u/0/#inbox https://newweb.nepalstock.com.np/ https://nepsealpha.com/trading/chart
+        rem start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe"  http://www.nepalstock.com/news/category/0 https://meroshare.cdsc.com.np/#/login https://newweb.nepalstock.com.np/ https://nepsealpha.com/trading/chart
+        start "Firefox" "C:\Program Files\Mozilla Firefox\firefox.exe" http://www.nepalstock.com/news/category/0 https://meroshare.cdsc.com.np/#/login https://mail.google.com/mail/u/0/#inbox https://newweb.nepalstock.com.np/ https://nepsealpha.com/trading/chart
         echo Opening your Excel balance sheet
         %SystemRoot%\explorer.exe "D:\excel Files\hello.xlsx"
         goto:choice
