@@ -3,7 +3,7 @@
 ::
 ::                                      Welcome to the good morning project
 ::
-::      Github Project link : https://github.com/aaisalu/Morning
+::      Github Project link : https://github.com/aaisalu/Housekeeping
 ::      If any bug or issue found please feel free to create a Isuue or submit pull request
 ::      Feel free to contribute.
 ::      Email: kcpra7@proton.me
@@ -60,7 +60,7 @@ echo        +#+   +#+# +#+    +#+ +#+    +#+ +#+    +#+      +#+  +#+#+#     +#+
 echo        #+#    #+# #+#    #+# #+#    #+# #+#    #+#      #+#   #+#+#     #+#    #+#    #+# #+#    #+#     #+#
 echo         ########   ########   ########  #########       ###    #### ########### ########  ###    ###     ###
 )
-echo                                    x - :k:[92m https://github.com/aaisalu/Morning [0m:c: - x
+echo                                    x - :k:[92m https://github.com/aaisalu/Housekeeping [0m:c: - x
 :: Thanks to mlocati for batch color at https://bit.ly/3zEJDj6
 
 ::check admin right
@@ -174,7 +174,7 @@ rem echo Copy this code to lunch Chrome  browser :   start "Chrome"  "C:\Program
     exit
 
 :saybye
-    echo [92mCheck for update at https://github.com/aaisalu/Morning[0m
+    echo [92mCheck for update at https://github.com/aaisalu/Housekeeping[0m
     ping -n 3 127.0.0.1 > nul
     exit
 
